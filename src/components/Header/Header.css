@@ -1,0 +1,22 @@
+.header-container {
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 140px;
+}
+.nav-menu {
+    list-style: none;
+}
+.nav-menu li{
+    display: inline;
+    padding: 0 10px;
+}
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.nav-menu li a:hover{
+    color: #ff9900;
+}
